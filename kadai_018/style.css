@@ -1,0 +1,113 @@
+#top{
+  width: 800px;
+  background-color:#dcc9f4 ;
+  text-align: center;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.top-child{
+  background-color:#ffd9df ;
+  width: 20%;
+  text-align: center;
+}
+#middle{
+  width: 800px; /* 要素の横幅を800pxにする */
+  height: 800px; /* 要素の高さを800pxにする */
+  margin: 20px auto; /* 上下に20pxの余白をつけ、左右中央配置にする */
+  background-color: #ffd9df; /* 背景色を薄いピンク色にする */
+}
+#middle{
+
+  /* 子要素のabsolute配置の基準にする */
+  position: relative;
+}
+
+/* id名「middle-child01」の装飾 */
+#middle-child01 {
+
+  /* 横幅を200pxに設定 */
+  width: 200px;
+
+  /* 高さを200pxに設定 */
+  height: 200px;
+
+  /* 背景色を#87ceebに設定 */
+  background-color: #87ceeb;
+
+ /* 親要素のdivを基準に配置 */
+  position: absolute;
+
+  /* 親要素の上から100pxの位置に配置 */
+  top: 100px;
+
+  /* 親要素の左から100pxの位置に配置 */
+  left: 100px;
+}
+
+/* id名「middle-child02」の装飾 */
+#middle-child02 {
+
+  /* 横幅を200pxに設定 */
+  width: 200px;
+
+  /* 高さを200pxに設定 */
+  height: 200px;
+
+  /* 背景色を#87ceebに設定 */
+  background-color: #87ceeb;
+
+ /* 親要素のdivを基準に配置 */
+  position: absolute;
+
+  /* 親要素の上から300pxの位置に配置 */
+  top: 300px;
+
+  /* 親要素の左から300pxの位置に配置 */
+  left: 300px;
+}
+
+/* id名「middle-child03」の装飾 */
+#middle-child03 {
+
+  /* 横幅を200pxに設定 */
+  width: 200px;
+
+  /* 高さを200pxに設定 */
+  height: 200px;
+
+  /* 背景色を#87ceebに設定 */
+  background-color: #87ceeb;
+
+  position: absolute;
+
+  top: 500px;
+
+  left: 500px;
+}
+#bottom{
+  width: 800px;
+  height: 300px;
+  margin: 20px auto;
+  background-color: #87ceeb;
+}
+#bottom-child01{
+width: 400px;
+height: 100px;
+background-color: #e5dcf0;
+}
+#bottom-child02{
+  width: 400px;
+  height: 100px;
+  background-color: #e5dcf0;
+  position: relative;
+  left: 200px;
+}
+#bottom-child03{
+  width: 400px;
+  height: 100px;
+  background-color: #e5dcf0;
+  position: relative;
+  left: 400px;
+}
