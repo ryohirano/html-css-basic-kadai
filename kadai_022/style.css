@@ -11,10 +11,10 @@ body{
 }
 a{
   font-size: 20px;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 234, 251);
 }
 a:visited{
-  color: rgb(255, 255, 255);
+  color: rgb(193, 234, 251);
 }
 a:hover{
   color:rgb(245, 178, 168) ;
@@ -40,7 +40,7 @@ main{
 }
 h2{
   font-size: 25px;
-  border-bottom: dotted 3px rgb(239,111,139);
+  border-bottom: dotted 3px rgb(236,122,122);
 }
 h2::before{
   content: "●";
@@ -54,7 +54,10 @@ h2::before{
 
   /* 文字サイズを大きく設定 */
   font-size: 32px;
-  margin: 10px 0;
+  font-weight: bold;
+}
+.contents img{
+  margin: 10px;
   width: 70%;
 }
 footer{
